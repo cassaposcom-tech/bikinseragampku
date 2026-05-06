@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Konveksi - Solusi Seragam Anda</title>
+    <meta name="description" content="Order seragam tanpa ribet, langsung dari konveksi. Melayani kemeja PDH/PDL, jaket komunitas, polo shirt, dan kaos di Pekanbaru.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-pattern {
+            background-color: #1e3a8a;
+            background-image: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.9)), url('https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center gap-2">
+                        <i data-lucide="scissors" class="h-8 w-8 text-brand-600"></i>
+                        <span class="font-bold text-2xl text-brand-900 tracking-tight">Galeri<span class="text-brand-600">Konveksi</span></span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#beranda" class="text-gray-600 hover:text-brand-600 font-medium transition">Beranda</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-brand-600 font-medium transition">Layanan</a>
+                    <a href="#keunggulan" class="text-gray-600 hover:text-brand-600 font-medium transition">Keunggulan</a>
+                    <a href="#cara-pesan" class="text-gray-600 hover:text-brand-600 font-medium transition">Cara Pesan</a>
+                </div>
+                <div class="flex items-center">
+                    <a href="https://wa.me/6281261308180" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-brand-600 text-white px-5 py-2.5 rounded-full font-medium hover:bg-brand-800 transition-colors shadow-md">
+                        <i data-lucide="phone" class="h-4 w-4"></i>
+                        Hubungi Kami
+                    </a>
+                    <!-- Mobile menu button -->
+                    <button class="md:hidden p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
+                        <i data-lucide="menu" class="h-6 w-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-pattern pt-32 pb-20 md:pt-40 md:pb-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-800/50 text-brand-100 text-sm font-semibold tracking-wider mb-4 border border-brand-500/30">
+                SEJAK 2018 DI PEKANBARU
+            </span>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Solusi Seragam Anda. <br class="hidden md:block"> Order Tanpa Ribet.
+            </h1>
+            <p class="text-xl text-brand-100 mb-10 max-w-2xl mx-auto font-light">
+                Langsung dari konveksi. Melayani berbagai kebutuhan pakaian seragam, kaos event, jaket komunitas, hingga baju kerja dengan kualitas terbaik dan harga yang kompetitif.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#layanan" class="bg-white text-brand-900 px-8 py-3.5 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">
+                    Lihat Layanan Kami
+                </a>
+                <a href="https://wa.me/6281261308180" class="flex justify-center items-center gap-2 bg-green-500 text-white px-8 py-3.5 rounded-full font-semibold hover:bg-green-600 transition shadow-lg">
+                    <i data-lucide="message-circle" class="h-5 w-5"></i>
+                    Konsultasi via WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1605289355680-75fb41239154?q=80&w=2070&auto=format&fit=crop" alt="Jahit Seragam" class="rounded-2xl shadow-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-brand-900 mb-4">Tentang Galeri Konveksi</h2>
+                    <div class="w-16 h-1 bg-brand-500 mb-6 rounded-full"></div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Galeri Konveksi adalah mitra produksi terpercaya sejak 2018. Kami siap melayani berbagai kebutuhan pakaian seragam, kaos event, jaket komunitas, hingga baju kerja.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Dengan kualitas terbaik dan harga yang kompetitif, kami telah dipercaya oleh berbagai instansi, termasuk memenuhi kebutuhan ratusan stel seragam dinas instansi pemerintah di Kota Pekanbaru.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="flex items-center gap-3">
+                            <div class="bg-brand-100 p-3 rounded-lg text-brand-600">
+                                <i data-lucide="check-circle" class="h-6 w-6"></i>
+                            </div>
+                            <span class="font-semibold text-gray-800">1000+ Klien</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="bg-brand-100 p-3 rounded-lg text-brand-600">
+                                <i data-lucide="award" class="h-6 w-6"></i>
+                            </div>
+                            <span class="font-semibold text-gray-800">Garansi Kualitas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="layanan" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-900 mb-4">Layanan Galeri Konveksi</h2>
+                <div class="w-24 h-1 bg-brand-500 mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Kami bisa melayani banyak kebutuhan apapun yang kamu inginkan. Bebas request desain yang kamu inginkan!</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
+                        <i data-lucide="shirt" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kemeja PDH/PDL</h3>
+                    <p class="text-gray-600 text-sm">Pilihan tepat untuk seragam dinas, kampus, atau lapangan dengan bahan yang tangguh dan nyaman dipakai.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
+                        <i data-lucide="shield" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Jaket Organisasi</h3>
+                    <p class="text-gray-600 text-sm">Produksi berbagai model jaket sesuai identitas komunitas atau organisasi Anda.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
+                        <i data-lucide="briefcase" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Polo Shirt</h3>
+                    <p class="text-gray-600 text-sm">Tampil profesional dan kasual dengan polo shirt bordir untuk acara gathering maupun seragam tim.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
+                        <i data-lucide="shopping-bag" class="h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kaos & Lain-lain</h3>
+                    <p class="text-gray-600 text-sm">Pembuatan kaos event, sablon custom, dan berbagai macam jenis pakaian lainnya bebas request desain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="keunggulan" class="py-20 bg-brand-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Kenapa Harus Order di Galeri Konveksi?</h2>
+                <div class="w-24 h-1 bg-brand-400 mx-auto rounded-full mb-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="text-center">
+                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
+                        <i data-lucide="check-circle" class="h-8 w-8 text-brand-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Jahitan Rapi & Tahan Lama</h3>
+                    <p class="text-brand-100 font-light">Bukan cuma enak dilihat, hasil produksi kami juga terbukti awet dan sangat nyaman dipakai sehari-hari.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
+                        <i data-lucide="layers" class="h-8 w-8 text-brand-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Bahan Lengkap & Berkualitas</h3>
+                    <p class="text-brand-100 font-light">Dari bahan kemeja, jaket, blazer, hingga kaos — tinggal pilih bebas sesuai kebutuhan dan budget Anda.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
+                        <i data-lucide="pen-tool" class="h-8 w-8 text-brand-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Desain GRATIS</h3>
+                    <p class="text-brand-100 font-light">Punya ide tapi bingung desainnya? Jangan khawatir, tim desain kami siap bantu wujudkan baju impianmu secara gratis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Process -->
+    <section id="cara-pesan" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-900 mb-4">Cara Pemesanan Sangat Mudah</h2>
+                <div class="w-24 h-1 bg-brand-500 mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600">Ikuti 4 langkah sederhana ini untuk mendapatkan seragam impian Anda.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center relative">
+                <!-- Line connector for desktop -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-100 -z-10 -translate-y-1/2"></div>
+                
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
+                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">1</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Konsultasi</h4>
+                    <p class="text-sm text-gray-500">Hubungi CS kami, diskusikan desain, bahan, jumlah, dan estimasi harga.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
+                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">2</div>
+                    <h4 class="font-bold text-gray-900 mb-2">DP & Mockup</h4>
+                    <p class="text-sm text-gray-500">Pembayaran Down Payment (DP) dan kami buatkan visualisasi desain (mockup).</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
+                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">3</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Produksi</h4>
+                    <p class="text-sm text-gray-500">Proses jahit, sablon/bordir, hingga finishing dan quality control.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4">
+                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">4</div>
+                    <h4 class="font-bold text-gray-900 mb-2">Pelunasan & Kirim</h4>
+                    <p class="text-sm text-gray-500">Pelunasan biaya dan pesanan langsung dikirim ke alamat Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-brand-50 border-t border-brand-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-brand-900 mb-6">Siap Membuat Seragam untuk Tim Anda?</h2>
+            <p class="text-lg text-gray-600 mb-8">Dapatkan penawaran harga terbaik dan konsultasi desain gratis sekarang juga.</p>
+            <a href="https://wa.me/6281261308180" target="_blank" class="inline-flex items-center gap-3 bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-transform transform hover:scale-105 shadow-xl">
+                <i data-lucide="message-circle" class="h-6 w-6"></i>
+                Hubungi Admin Sekarang
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Brand Info -->
+                <div>
+                    <a href="#" class="flex items-center gap-2 mb-6">
+                        <i data-lucide="scissors" class="h-6 w-6 text-brand-500"></i>
+                        <span class="font-bold text-xl text-white tracking-tight">Galeri<span class="text-brand-500">Konveksi</span></span>
+                    </a>
+                    <p class="text-sm text-gray-400 mb-6 leading-relaxed">
+                        Galeri Konveksi adalah mitra produksi terpercaya sejak 2018, melayani berbagai kebutuhan pakaian seragam dengan kualitas terbaik dan harga kompetitif.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/galerikonveksi" target="_blank" class="text-gray-400 hover:text-white transition"><i data-lucide="instagram" class="h-5 w-5"></i></a>
+                        <a href="https://www.galerikonveksi.com" target="_blank" class="text-gray-400 hover:text-white transition"><i data-lucide="globe" class="h-5 w-5"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-6">Tautan Cepat</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#beranda" class="text-sm hover:text-brand-400 transition">Beranda</a></li>
+                        <li><a href="#layanan" class="text-sm hover:text-brand-400 transition">Layanan</a></li>
+                        <li><a href="#keunggulan" class="text-sm hover:text-brand-400 transition">Keunggulan Kami</a></li>
+                        <li><a href="#cara-pesan" class="text-sm hover:text-brand-400 transition">Cara Pemesanan</a></li>
+                        <li><a href="#" class="text-sm hover:text-brand-400 transition">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-semibold mb-6">Kontak Kami</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="h-5 w-5 text-brand-500 mt-0.5 flex-shrink-0"></i>
+                            <span class="text-sm">Jl. Naga Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28292</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="phone" class="h-5 w-5 text-brand-500 flex-shrink-0"></i>
+                            <span class="text-sm">+62 812-6130-8180</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="globe" class="h-5 w-5 text-brand-500 flex-shrink-0"></i>
+                            <span class="text-sm">www.galerikonveksi.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Galeri Konveksi. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Solusi Seragam Anda.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
