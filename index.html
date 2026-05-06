@@ -24,12 +24,16 @@
                     },
                     colors: {
                         brand: {
-                            50: '#eff6ff',
-                            100: '#dbeafe',
-                            500: '#3b82f6',
-                            600: '#2563eb',
-                            800: '#1e40af',
-                            900: '#1e3a8a',
+                            50: '#fefce8',
+                            100: '#fef9c3',
+                            200: '#fef08a',
+                            300: '#fde047',
+                            400: '#facc15',
+                            500: '#eab308', /* Mustard */
+                            600: '#ca8a04',
+                            700: '#a16207',
+                            800: '#854d0e',
+                            900: '#171717', /* Black / Dark */
                         }
                     }
                 }
@@ -38,8 +42,8 @@
     </script>
     <style>
         .hero-pattern {
-            background-color: #1e3a8a;
-            background-image: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.9)), url('https://galerikonveksi.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-03-at-13.53.37-2.jpeg?q=80&w=2070&auto=format&fit=crop');
+            background-color: #171717;
+            background-image: linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.95)), url('https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=2070&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
         }
@@ -53,18 +57,18 @@
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
                     <a href="#" class="flex items-center gap-2">
-                        <i data-lucide="scissors" class="h-8 w-8 text-brand-600"></i>
-                        <span class="font-bold text-2xl text-brand-900 tracking-tight">BikinSeragam<span class="text-brand-600">PKU</span></span>
+                        <i data-lucide="scissors" class="h-8 w-8 text-brand-500"></i>
+                        <span class="font-bold text-2xl text-brand-900 tracking-tight">BikinSeragam<span class="text-brand-500">PKU</span></span>
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#beranda" class="text-gray-600 hover:text-brand-600 font-medium transition">Beranda</a>
-                    <a href="#layanan" class="text-gray-600 hover:text-brand-600 font-medium transition">Layanan</a>
-                    <a href="#keunggulan" class="text-gray-600 hover:text-brand-600 font-medium transition">Keunggulan</a>
-                    <a href="#cara-pesan" class="text-gray-600 hover:text-brand-600 font-medium transition">Cara Pesan</a>
+                    <a href="#beranda" class="text-gray-600 hover:text-brand-500 font-medium transition">Beranda</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-brand-500 font-medium transition">Layanan</a>
+                    <a href="#keunggulan" class="text-gray-600 hover:text-brand-500 font-medium transition">Keunggulan</a>
+                    <a href="#cara-pesan" class="text-gray-600 hover:text-brand-500 font-medium transition">Cara Pesan</a>
                 </div>
                 <div class="flex items-center">
-                    <a href="https://wa.me/6281261308180" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-brand-600 text-white px-5 py-2.5 rounded-full font-medium hover:bg-brand-800 transition-colors shadow-md">
+                    <a href="https://wa.me/6281261308180" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-brand-500 text-black px-5 py-2.5 rounded-full font-semibold hover:bg-brand-400 transition-colors shadow-md">
                         <i data-lucide="phone" class="h-4 w-4"></i>
                         Hubungi Kami
                     </a>
@@ -80,20 +84,20 @@
     <!-- Hero Section -->
     <section id="beranda" class="hero-pattern pt-32 pb-20 md:pt-40 md:pb-28">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <span class="inline-block py-1 px-3 rounded-full bg-brand-800/50 text-brand-100 text-sm font-semibold tracking-wider mb-4 border border-brand-500/30">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-400 text-sm font-semibold tracking-wider mb-4 border border-brand-500/30">
                 SEJAK 2018 DI PEKANBARU
             </span>
             <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Solusi Seragam Anda. <br class="hidden md:block"> Order Tanpa Ribet.
             </h1>
-            <p class="text-xl text-brand-100 mb-10 max-w-2xl mx-auto font-light">
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light">
                 Langsung dari konveksi. Melayani berbagai kebutuhan pakaian seragam, kaos event, jaket komunitas, hingga baju kerja dengan kualitas terbaik dan harga yang kompetitif.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#layanan" class="bg-white text-brand-900 px-8 py-3.5 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">
                     Lihat Layanan Kami
                 </a>
-                <a href="https://wa.me/6281261308180" class="flex justify-center items-center gap-2 bg-green-500 text-white px-8 py-3.5 rounded-full font-semibold hover:bg-green-600 transition shadow-lg">
+                <a href="https://wa.me/6281261308180" class="flex justify-center items-center gap-2 bg-brand-500 text-black px-8 py-3.5 rounded-full font-bold hover:bg-brand-400 transition shadow-lg">
                     <i data-lucide="message-circle" class="h-5 w-5"></i>
                     Konsultasi via WhatsApp
                 </a>
@@ -106,7 +110,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1605289355680-75fb41239154?q=80&w=2070&auto=format&fit=crop" alt="Jahit Seragam" class="rounded-2xl shadow-xl">
+                    <img src="https://galerikonveksi.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-06-03-at-13.53.37-3-r6r4h40cjajc6uvl8mxcavshpvygnaxsmfzpobljio.jpeg?q=80&w=2070&auto=format&fit=crop" alt="Jahit Seragam" class="rounded-2xl shadow-xl grayscale-[30%]">
                 </div>
                 <div>
                     <h2 class="text-3xl font-bold text-brand-900 mb-4">Tentang BikinSeragamPKU</h2>
@@ -119,13 +123,13 @@
                     </p>
                     <div class="grid grid-cols-2 gap-6">
                         <div class="flex items-center gap-3">
-                            <div class="bg-brand-100 p-3 rounded-lg text-brand-600">
+                            <div class="bg-brand-50 p-3 rounded-lg text-brand-600">
                                 <i data-lucide="check-circle" class="h-6 w-6"></i>
                             </div>
                             <span class="font-semibold text-gray-800">1000+ Klien</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <div class="bg-brand-100 p-3 rounded-lg text-brand-600">
+                            <div class="bg-brand-50 p-3 rounded-lg text-brand-600">
                                 <i data-lucide="award" class="h-6 w-6"></i>
                             </div>
                             <span class="font-semibold text-gray-800">Garansi Kualitas</span>
@@ -136,47 +140,94 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Services Section (Updated with Photos & Details) -->
     <section id="layanan" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-brand-900 mb-4">Layanan BikinSeragamPKU</h2>
                 <div class="w-24 h-1 bg-brand-500 mx-auto rounded-full mb-4"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">Kami bisa melayani banyak kebutuhan apapun yang kamu inginkan. Bebas request desain yang kamu inginkan!</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Kami bisa melayani banyak kebutuhan apapun yang kamu inginkan. Bebas request desain, bahan, dan spesifikasi yang kamu inginkan!</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Service 1 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
-                        <i data-lucide="shirt" class="h-8 w-8"></i>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 overflow-hidden group flex flex-col">
+                    <div class="h-48 w-full overflow-hidden relative">
+                        <img src="https://galerikonveksi.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-04-at-19.47.22-300x300.jpeg?q=80&w=600&auto=format&fit=crop" alt="Kemeja PDH/PDL" class="object-cover w-full h-full group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md text-brand-500">
+                            <i data-lucide="shirt" class="h-5 w-5"></i>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kemeja PDH/PDL</h3>
-                    <p class="text-gray-600 text-sm">Pilihan tepat untuk seragam dinas, kampus, atau lapangan dengan bahan yang tangguh dan nyaman dipakai.</p>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Kemeja PDH / PDL</h3>
+                        <p class="text-gray-600 text-sm mb-4 flex-grow">Pilihan tepat untuk seragam dinas, kampus, atau lapangan. Tersedia dengan berbagai pilihan bahan kuat dan jahitan presisi.</p>
+                        <div class="border-t border-gray-100 pt-4 mt-auto">
+                            <ul class="text-xs text-gray-500 space-y-2">
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Bahan:</b> American Drill, Nagata Drill, Taipan Tropical.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Aplikasi:</b> Bordir Komputer rapi, Skotlet, Ventilasi Jaring.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Service 2 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
-                        <i data-lucide="shield" class="h-8 w-8"></i>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 overflow-hidden group flex flex-col">
+                    <div class="h-48 w-full overflow-hidden relative">
+                        <img src="https://galerikonveksi.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-04-at-19.47.21-1-300x300.jpeg?q=80&w=600&auto=format&fit=crop" alt="Jaket Organisasi" class="object-cover w-full h-full group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md text-brand-500">
+                            <i data-lucide="shield" class="h-5 w-5"></i>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Jaket Organisasi</h3>
-                    <p class="text-gray-600 text-sm">Produksi berbagai model jaket sesuai identitas komunitas atau organisasi Anda.</p>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Jaket Organisasi</h3>
+                        <p class="text-gray-600 text-sm mb-4 flex-grow">Produksi berbagai model jaket (Bomber, Parka, Coach Jacket, Varsity, Hoodie) sesuai identitas komunitas atau instansi Anda.</p>
+                        <div class="border-t border-gray-100 pt-4 mt-auto">
+                            <ul class="text-xs text-gray-500 space-y-2">
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Bahan:</b> Taslan Milky, Kanvas, Fleece, Diadora.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Fitur:</b> Furing dalam (Dormeuil/Quilting), Resleting YKK.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Service 3 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
-                        <i data-lucide="briefcase" class="h-8 w-8"></i>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 overflow-hidden group flex flex-col">
+                    <div class="h-48 w-full overflow-hidden relative">
+                        <img src="https://galerikonveksi.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-04-at-19.47.19-1-300x300.jpeg?q=80&w=600&auto=format&fit=crop" alt="Polo Shirt" class="object-cover w-full h-full group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md text-brand-500">
+                            <i data-lucide="briefcase" class="h-5 w-5"></i>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Polo Shirt</h3>
-                    <p class="text-gray-600 text-sm">Tampil profesional dan kasual dengan polo shirt bordir untuk acara gathering maupun seragam tim.</p>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Polo Shirt</h3>
+                        <p class="text-gray-600 text-sm mb-4 flex-grow">Tampil profesional namun tetap kasual. Sangat cocok untuk acara gathering, event kantor, maupun seragam tim harian.</p>
+                        <div class="border-t border-gray-100 pt-4 mt-auto">
+                            <ul class="text-xs text-gray-500 space-y-2">
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Bahan:</b> Lacoste CVC, Lacoste PE, Pique Cotton (anti gerah).</li>
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Aplikasi:</b> Bordir Komputer presisi pada dada dan punggung.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Service 4 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition duration-300">
-                        <i data-lucide="shopping-bag" class="h-8 w-8"></i>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 overflow-hidden group flex flex-col">
+                    <div class="h-48 w-full overflow-hidden relative">
+                        <img src="https://galerikonveksi.com/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-09-at-12.23.35-1-300x300.jpeg?q=80&w=600&auto=format&fit=crop" alt="Kaos & Merchandise" class="object-cover w-full h-full group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md text-brand-500">
+                            <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kaos & Lain-lain</h3>
-                    <p class="text-gray-600 text-sm">Pembuatan kaos event, sablon custom, dan berbagai macam jenis pakaian lainnya bebas request desain.</p>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Kaos & Lain-lain</h3>
+                        <p class="text-gray-600 text-sm mb-4 flex-grow">Pembuatan kaos event, seragam angkatan, hingga pembuatan berbagai macam merchandise bebas request desain.</p>
+                        <div class="border-t border-gray-100 pt-4 mt-auto">
+                            <ul class="text-xs text-gray-500 space-y-2">
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Bahan Kaos:</b> Cotton Combed 30s/24s premium.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="check" class="h-3.5 w-3.5 text-brand-500 mt-0.5 shrink-0"></i> <b>Sablon & Merchandise:</b> DTF, Plastisol, Topi, Totebag.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -187,30 +238,30 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold mb-4">Kenapa Harus Order di BikinSeragamPKU?</h2>
-                <div class="w-24 h-1 bg-brand-400 mx-auto rounded-full mb-4"></div>
+                <div class="w-24 h-1 bg-brand-500 mx-auto rounded-full mb-4"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div class="text-center">
-                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
-                        <i data-lucide="check-circle" class="h-8 w-8 text-brand-300"></i>
+                    <div class="bg-black w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-500">
+                        <i data-lucide="check-circle" class="h-8 w-8 text-brand-500"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Jahitan Rapi & Tahan Lama</h3>
-                    <p class="text-brand-100 font-light">Bukan cuma enak dilihat, hasil produksi kami juga terbukti awet dan sangat nyaman dipakai sehari-hari.</p>
+                    <p class="text-gray-400 font-light">Bukan cuma enak dilihat, hasil produksi kami juga terbukti awet dan sangat nyaman dipakai sehari-hari.</p>
                 </div>
                 <div class="text-center">
-                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
-                        <i data-lucide="layers" class="h-8 w-8 text-brand-300"></i>
+                    <div class="bg-black w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-500">
+                        <i data-lucide="layers" class="h-8 w-8 text-brand-500"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Bahan Lengkap & Berkualitas</h3>
-                    <p class="text-brand-100 font-light">Dari bahan kemeja, jaket, blazer, hingga kaos — tinggal pilih bebas sesuai kebutuhan dan budget Anda.</p>
+                    <p class="text-gray-400 font-light">Dari bahan kemeja, jaket, blazer, hingga kaos — tinggal pilih bebas sesuai kebutuhan dan budget Anda.</p>
                 </div>
                 <div class="text-center">
-                    <div class="bg-brand-800 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-700">
-                        <i data-lucide="pen-tool" class="h-8 w-8 text-brand-300"></i>
+                    <div class="bg-black w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-4 border-brand-500">
+                        <i data-lucide="pen-tool" class="h-8 w-8 text-brand-500"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Desain GRATIS</h3>
-                    <p class="text-brand-100 font-light">Punya ide tapi bingung desainnya? Jangan khawatir, tim desain kami siap bantu wujudkan baju impianmu secara gratis!</p>
+                    <p class="text-gray-400 font-light">Punya ide tapi bingung desainnya? Jangan khawatir, tim desain kami siap bantu wujudkan baju impianmu secara gratis!</p>
                 </div>
             </div>
         </div>
@@ -227,29 +278,29 @@
 
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center relative">
                 <!-- Line connector for desktop -->
-                <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-100 -z-10 -translate-y-1/2"></div>
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 -z-10 -translate-y-1/2"></div>
                 
                 <!-- Step 1 -->
                 <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
-                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">1</div>
+                    <div class="w-16 h-16 bg-brand-500 text-black rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">1</div>
                     <h4 class="font-bold text-gray-900 mb-2">Konsultasi</h4>
                     <p class="text-sm text-gray-500">Hubungi CS kami, diskusikan desain, bahan, jumlah, dan estimasi harga.</p>
                 </div>
                 <!-- Step 2 -->
                 <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
-                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">2</div>
+                    <div class="w-16 h-16 bg-brand-500 text-black rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">2</div>
                     <h4 class="font-bold text-gray-900 mb-2">DP & Mockup</h4>
                     <p class="text-sm text-gray-500">Pembayaran Down Payment (DP) dan kami buatkan visualisasi desain (mockup).</p>
                 </div>
                 <!-- Step 3 -->
                 <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4 mb-8 md:mb-0">
-                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">3</div>
+                    <div class="w-16 h-16 bg-brand-500 text-black rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">3</div>
                     <h4 class="font-bold text-gray-900 mb-2">Produksi</h4>
                     <p class="text-sm text-gray-500">Proses jahit, sablon/bordir, hingga finishing dan quality control.</p>
                 </div>
                 <!-- Step 4 -->
                 <div class="flex flex-col items-center text-center bg-white p-4 w-full md:w-1/4">
-                    <div class="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">4</div>
+                    <div class="w-16 h-16 bg-brand-500 text-black rounded-full flex items-center justify-center text-2xl font-bold shadow-lg mb-4 ring-4 ring-white">4</div>
                     <h4 class="font-bold text-gray-900 mb-2">Pelunasan & Kirim</h4>
                     <p class="text-sm text-gray-500">Pelunasan biaya dan pesanan langsung dikirim ke alamat Anda.</p>
                 </div>
@@ -258,19 +309,19 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-brand-50 border-t border-brand-100">
+    <section class="py-16 bg-brand-50 border-t border-brand-200">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <h2 class="text-3xl font-bold text-brand-900 mb-6">Siap Membuat Seragam untuk Tim Anda?</h2>
             <p class="text-lg text-gray-600 mb-8">Dapatkan penawaran harga terbaik dan konsultasi desain gratis sekarang juga.</p>
-            <a href="https://wa.me/6281261308180" target="_blank" class="inline-flex items-center gap-3 bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-transform transform hover:scale-105 shadow-xl">
-                <i data-lucide="message-circle" class="h-6 w-6"></i>
+            <a href="https://wa.me/6281261308180" target="_blank" class="inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-transform transform hover:scale-105 shadow-xl border-b-4 border-brand-500">
+                <i data-lucide="message-circle" class="h-6 w-6 text-brand-500"></i>
                 Hubungi Admin Sekarang
             </a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+    <footer class="bg-black text-gray-400 py-12 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <!-- Brand Info -->
@@ -283,8 +334,8 @@
                         BikinSeragamPKU adalah mitra produksi terpercaya sejak 2018, melayani berbagai kebutuhan pakaian seragam dengan kualitas terbaik dan harga kompetitif.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-lucide="instagram" class="h-5 w-5"></i></a>
-                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-lucide="globe" class="h-5 w-5"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-brand-500 transition"><i data-lucide="instagram" class="h-5 w-5"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-brand-500 transition"><i data-lucide="globe" class="h-5 w-5"></i></a>
                     </div>
                 </div>
 
@@ -292,11 +343,11 @@
                 <div>
                     <h4 class="text-white font-semibold mb-6">Tautan Cepat</h4>
                     <ul class="space-y-3">
-                        <li><a href="#beranda" class="text-sm hover:text-brand-400 transition">Beranda</a></li>
-                        <li><a href="#layanan" class="text-sm hover:text-brand-400 transition">Layanan</a></li>
-                        <li><a href="#keunggulan" class="text-sm hover:text-brand-400 transition">Keunggulan Kami</a></li>
-                        <li><a href="#cara-pesan" class="text-sm hover:text-brand-400 transition">Cara Pemesanan</a></li>
-                        <li><a href="#" class="text-sm hover:text-brand-400 transition">Syarat & Ketentuan</a></li>
+                        <li><a href="#beranda" class="text-sm hover:text-brand-500 transition">Beranda</a></li>
+                        <li><a href="#layanan" class="text-sm hover:text-brand-500 transition">Layanan</a></li>
+                        <li><a href="#keunggulan" class="text-sm hover:text-brand-500 transition">Keunggulan Kami</a></li>
+                        <li><a href="#cara-pesan" class="text-sm hover:text-brand-500 transition">Cara Pemesanan</a></li>
+                        <li><a href="#" class="text-sm hover:text-brand-500 transition">Syarat & Ketentuan</a></li>
                     </ul>
                 </div>
 
@@ -320,7 +371,7 @@
                 </div>
             </div>
             
-            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+            <div class="border-t border-gray-900 mt-12 pt-8 text-center text-sm text-gray-600 flex flex-col md:flex-row justify-between items-center">
                 <p>&copy; 2026 BikinSeragamPKU. All rights reserved.</p>
                 <p class="mt-2 md:mt-0">Solusi Seragam Anda.</p>
             </div>
